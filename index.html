@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>เกี่ยวกับฉัน</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <header>
+        <h1>Natthawut Ongkhachuen</h1>
+    </header>
+
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">&#9776; เมนู</div>
+        <ul>
+            <li><a href="#about">&#10052;About&#10052;</a></li>
+            <li><a href="#education">&#10052;Education&#10052;</a></li>
+            <li><a href="#employment">&#10052;Employment&#10052;</a></li>
+            <li><a href="#skills">&#10052;Skills&#10052;</a></li>
+            <li><a href="#contact">&#10052;Contact&#10052;</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <img class="profile" src="รูป.jpg" alt="Profile Image">
+        <h2>About</h2>
+        <hr>
+        <p>สาขาวิชาที่นักศึกษาสังกัด: <em>วิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</em></p>
+        <p>ชื่อคณะ: วิศวกรรมศาสตร์และเทคโนโลยี</p>
+        <p>ชื่อสถาบัน: <a href="http://pim.ac.th" target="_blank">สถาบันการจัดการปัญญาภิวัฒน์</a></p>
+        <hr>
+        <p>ประวัติโดยย่อ: My goal is to support collaborative development teams by identifying issues early in the development cycle and helping deliver high-quality software products that meet customer requirements and user expectations.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <hr>
+        <p>PIM-Panyapiwat Institute of Management computer and technology</p>
+        <p>2023-now</p>
+    </section>
+
+    <section id="employment">
+        <h2>Employment</h2>
+        <hr>
+        <h3>Part Time at Pen plum motor</h3>
+          <p>Mar 2021 to Dec 2021</p>
+          <ul>
+            <li>Motorcycle mechanic assistant, accounting of income and expenses, customer service</li>
+          </ul>
+        <h3>Internship at Volvo Car 14 Auto Marque</h3>
+          <p>Oct 2022 to Dec 2022</p>
+          <ul>
+            <li>Filter data into the database, verify database accuracy, photocopy documents, assist with various accounting tasks.</li>
+          </ul>
+        <h3>Seven Eleven (7-11) CP All PLC.
+            Mo chit bus terminal </h3>
+          <p>march-may 2024</p>
+          <ul>
+            <li>Cashier, provided customer service and assistance, restocked items in the store, and maintained store cleanliness, etc.</li>
+          </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <hr>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <hr>
+        <ol>
+            <li>Email: 6652300656<span><img class="arm" src="suparm.JPG" alt="$" style="width: 16px; height: 16px;"></span> stu.pim.ac.th</li>
+            <li>เบอร์โทรศัพท์: 099-0999-047</li>
+            <li>ที่อยู่: นนทบุรี</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 สถาบันการจัดการปัญญาภิวัฒน์</p>
+    </footer>
+
+    <link rel="stylesheet" href="index.js">
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
